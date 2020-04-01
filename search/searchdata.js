@@ -1,9 +1,11 @@
 var indexSectionsWithContent =
 {
-  0: "bfntu",
+  0: "bfnqtu",
   1: "bft",
-  2: "n",
-  3: "bfu"
+  2: "nq",
+  3: "bfu",
+  4: "bt",
+  5: "t"
 };
 
 var indexSectionNames =
@@ -11,7 +13,9 @@ var indexSectionNames =
   0: "all",
   1: "classes",
   2: "namespaces",
-  3: "functions"
+  3: "functions",
+  4: "variables",
+  5: "typedefs"
 };
 
 var indexSectionLabels =
@@ -19,6 +23,8 @@ var indexSectionLabels =
   0: "All",
   1: "Classes",
   2: "Namespaces",
-  3: "Functions"
+  3: "Functions",
+  4: "Variables",
+  5: "Typedefs"
 };
 

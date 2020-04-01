@@ -103,12 +103,12 @@ WARN_LOGFILE           =
 #---------------------------------------------------------------------------
 # Configuration options related to the input files
 #---------------------------------------------------------------------------
-INPUT                  = test.cpp
+INPUT                  = .
 
 
 INPUT_ENCODING         = UTF-8
-FILE_PATTERNS          =
-RECURSIVE              = NO
+FILE_PATTERNS          = *.cpp
+RECURSIVE              = YES
 EXCLUDE                =
 EXCLUDE_SYMLINKS       = NO
 EXCLUDE_PATTERNS       =

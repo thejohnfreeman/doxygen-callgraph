@@ -1,0 +1,21 @@
+name: Build and publish documentation
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  job:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: build
+        uses: mattnotmitt/doxygen-action@v1
+        with:
+          doxyfile-path: 'Doxyfile'
+      - name: publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./html
